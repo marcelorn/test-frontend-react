@@ -10,9 +10,9 @@ The user should be able to:
 - Registry new stations based on the following input: id(unique), name(unique), status(on/off), latitude and longitude;
 - Remove a specific station registered in the application;
 - List all the stations registered in the application;
-- See the data collected from a specific station in a chart. The metrics should be displayed in the same chart (temperature as line and rain volume as bar).
+- See the data collected from a specific station in a chart. The metrics should be displayed in the same chart (temperature in line format and rain in bar format).
 
-You received a JSON file (metrics.json) with data collected from few stations to help you develop the application. If the user registry a weather station with an **id** that matches the data provided by metrics.json, the chart should display the metrics for that station. Otherwise there will be no data to show.
+You received a JSON file (metrics.json) with same data collected from five stations to help you develop the application. If the user registry a weather station with an **id** that matches the data in metrics.json, the chart should display the metrics for that station. Otherwise there will be no data to show.
 
 ## Notes
 
